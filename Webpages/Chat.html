@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathSense</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Assets/MathSenseLogo.png">
+
+</head>
+
+<body>
+  <div style="text-align: center;">
+    <p class="text1">Welcome to the MathSense Chatroom!</p>
+
+    <p class="text2">Here you can chat with anyone else that's online!</p>
+
+    <!--- Code For Tab Selection -->
+    <div style="text-align: center;">
+      <a href="Home.html">
+        <button class="button">Home</button>
+      </a>
+      <a href="Webgames.html">
+        <button class="button">Web Games</button>
+      </a>
+      <a href="Emulation.html">
+        <button class="button">Emulation</button>
+      </a>
+      <a href="Apps.html">
+        <button class="button">Apps</button>
+      </a>
+      <a href="Music.html">
+        <button class="button">Music</button>
+      </a>
+      <a href="Feedback.html">
+        <button class="button">Feedback</button>
+      </a>
+        <a href="Bookmarklets.html">
+        <button class="button">Bookmarklets</button>
+      </a>
+    </div>
+
+    <br>
+
+    <div>
+      <button class="button2" style="height:50px; width:100px;" onclick="openFullscreen()">Fullscreen</button>
+    </div>
+    
+    <br>
+
+    <iframe src="https://mathsense.chatango.com/" id="chat" class="iframe"></iframe>
+
+    <br>
+    <br>
+
+    <p></p>
+
+    <!--ALT P --->
+    <a href="https://classroom.google.com/u/1/h" accesskey="p"></a>
+
+
+
+    <script>
+      var elem = document.getElementById("chat");
+
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
+    </script>
+
+
+    <script src="script.js"></script>
+    <script src="password.js"></script>
+
+
+</body>
+
+
+
+</html>

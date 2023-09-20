@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathSense</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Assets/MathSenseLogo.png">
+
+</head>
+
+<body>
+
+  <div style="text-align: center;">
+    <p class="text1">Welcome to MathSense Web Games!</p>
+
+    <p class="text2">Here you can enjoy the most popular of games</p>
+
+    <!--- Code For Tab Selection -->
+    <div style="text-align: center;">
+      <a href="Home.html">
+        <button class="button">Home</button>
+      </a>
+      <a href="Emulation.html">
+        <button class="button">Emulation</button>
+      </a>
+      <a href="Apps.html">
+        <button class="button">Apps</button>
+      </a>
+      <a href="Music.html">
+        <button class="button">Music</button>
+      </a>
+      <a href="Feedback.html">
+        <button class="button">Feedback</button>
+      </a>
+        <a href="Bookmarklets.html">
+        <button class="button">Bookmarklets</button>
+      </a>
+      <a href="Chat.html">
+        <button class="button">Chatroom</button>
+      </a>
+    </div>
+
+    <br>
+
+    <div>
+      <button class="button2" style="height:50px; width:100px;" onclick="openFullscreen()">Fullscreen</button>
+    </div>
+
+    <br>
+
+    <div style="text-align: center;">
+      <iframe src="blank.html" id="iframe2" class="iframe"></iframe>
+    </div>
+
+    <br>
+      
+    <div style="text-align: center;">
+      <button class="ageofwar" onclick="AOW1()">Age of War</button>
+      <button class="ageofwar2" onclick="AOW2()">Age of War 2</button>
+      <button class="angrybirds" onclick="AngryBirds()">Angry Birds</button>
+      <button class="breakingbank" onclick="BTB()">Breaking the Bank</button>
+      <button class="bloonstd2" onclick="BTD2()">Bloons TD 2</button>
+      <button class="bloonstd3" onclick="BTD3()">Bloons TD 3</button>
+      <button class="bloonstd4" onclick="BTD4()">Bloons TD 4</button>
+      <button class="btd4exp" onclick="BTD4E()">Bloons TD 4 Expansion</button>
+      <button class="FTC" onclick="FTC()">Fleeing the Complex</button>
+      <button class="infairship" onclick="InfAirship()" style="font-size: 11px;">Infiltrating the Airship</button>
+      <button class="jacksmith" onclick="jacksmith()">Jacksmith</button>
+      <button class="papasfreeze" onclick="PapasFreeze()">Papa's Freezeria</button>
+      <button class="papashotdoggeria" onclick="PapasHotDoggeria()">Papa's Hot Doggeria</button>
+      <button class="papapizza" onclick="PapaPizza()">Papa's Pizzeria</button>
+      <button class="papastacomia" onclick="PapaTaco()">Papa's Taco Mia</button>
+      <button class="stealdiamond" onclick="StealDiamond()" style="font-size: 11px;">Stealing the Diamond</button>
+      <button class="marioflash" onclick="MarioFlash()">Super Mario Flash</button>
+      <button class="marioflash2" onclick="MarioFlash2()">Super Mario Flash 2</button>
+      <button class="worldshardestgame" onclick="WorldsHardestGame()">The World's Hardest Game</button>
+    </div>
+
+    <br>
+
+    <!--ALT = --->
+    <a href="https://classroom.google.com/u/1/h" accesskey="p"></a>
+
+
+
+
+
+
+    <script>
+      var elem = document.getElementById("iframe2");
+
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
+    </script>
+
+    <script src="script.js"></script>
+    <script src="webgames.js"></script>
+
+
+</body>
+
+
+
+</html>

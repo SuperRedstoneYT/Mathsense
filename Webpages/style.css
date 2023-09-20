@@ -1,0 +1,502 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("Assets/gradient.png"), url("Assets/bg.png");
+  background-repeat: no-repeat, repeat;
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(Assets/Fonts/coolvetica.otf);
+}
+
+.text1 {
+  font-family: coolvetica;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  text-shadow: 1px 1px 1px #0c05fc;
+}
+
+.text2 {
+  font-family: coolvetica;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px #0c05fc;
+}
+
+.button {
+  color: red;
+  font-family: coolvetica;
+  background-color: #040326;
+  text-shadow: 1px 1px 1px #330000;
+  border-color: #8a0000;
+  border-radius: 7px;
+  width: 100px;
+  height: 50px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #9e0000;
+  text-decoration: underline;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 60px;
+}
+
+.button2,
+.NC, /* allows for better bookmarklets */
+.FTC,
+.youtubebutton,
+.mario3button,
+.pokemonemeraldbutton,
+.marioparty2button,
+.carsgba,
+.supermariobros,
+.mariokartds,
+.marioandluigisuperstar,
+.Legendofzelda,
+.TLOZminishcap,
+.Tloz4swords,
+.bloonstd2, 
+.bloonstd3,
+.infairship,
+.ageofwar,
+.papastacomia,
+.stealdiamond,
+.marioflash,
+.marioflash2,
+.reddit,
+.ageofwar2,
+.twitter,
+.tiktok,
+.mariotennis,
+.papapizza,
+.bloonstd4,
+.papasfreeze,
+.FTC,
+.angrybirds,
+.breakingbank,
+.btd4exp,
+.jacksmith,
+.papashotdoggeria,
+.worldshardestgame {
+  
+  color: white;
+  font-size: 15px;
+  font-family: coolvetica;
+  background-color: #040326;
+  text-shadow: 1px 1px 1px #0c05fc;
+  border-color: #fff200;
+  border-radius: 7px;
+  width: 150px;
+  height: 100px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.youtubebutton:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/Youtube_logo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.mario3button:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/mario3img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.pokemonemeraldbutton:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/pokemonemerald.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.marioparty2button:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/marioparty2.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.carsgba:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/carsgba.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.supermariobros:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/supermariobros.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.mariokartds:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/mariokartds.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.marioandluigisuperstar:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/marioandluigisuperstar.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.Legendofzelda:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/link_nes.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.bloonstd2:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/bloonstd2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.bloonstd3:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/bloonstd3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.bloonstd4:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/bloonstd4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.infairship:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/infairship.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.papastacomia:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/papastacomia.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.stealdiamond:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/stealdiamond.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.marioflash:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/marioflash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.marioflash2:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/marioflash2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.reddit:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/redditlogo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.twitter:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/twitterlogo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.ageofwar:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/ageofwar.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.ageofwar2:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/ageofwar2.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.tiktok:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/tiktok.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.TLOZminishcap:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/TheLegendOfZeldaTheMinishCap_image1600w.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.Tloz4swords:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/Lozd4swords.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.mariotennis:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/Mario_Tennis_box.jpg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.papapizza:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/PapaPizza.jpeg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.papasfreeze:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/papasfreeze.jpg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.FTC:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/FTC.jpeg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.breakingbank:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/btb.png');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.angrybirds:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-image: url('Assets/Img/angrybirds.jpg');
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.NC:hover {
+  color: #00ffdd;
+  text-decoration: underline;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.btd4exp:hover {
+  background-image: url('Assets/Img/btd4exp.webp');
+  color: #00ffdd;
+  text-decoration: underline;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.jacksmith:hover {
+  background-image: url('Assets/Img/jacksmith.jpeg');
+  color: #00ffdd;
+  text-decoration: underline;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.papashotdoggeria:hover {
+  background-image: url('Assets/Img/papahotdog.jpeg');
+  color: #00ffdd;
+  text-decoration: underline;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.worldshardestgame:hover {
+  background-image: url('Assets/Img/worldshardestgame.png');
+  color: #00ffdd;
+  text-decoration: underline;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 110px;
+}
+
+.iframe {
+  height: 400px;
+  width: 750px;
+  border-color: #fc0505;
+  border-radius: 7px;
+}
+
+.iframe2 {
+  height: 500px;
+  width: 650px;
+  border-color: #fc0505;
+  border-radius: 7px;
+}
