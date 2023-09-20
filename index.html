@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathSense - All of your maths needs in one website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="Assets/Images/MathSense Logo.png">
+  <script 
+src="https://kit.fontawesome.com/78bbd668e4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--- Code For Signin and Login -->
+  <div>
+    <button class="button" id="loginbutton" onclick="showLogin()">Login</button>
+
+    <br>
+
+    <input type="text" id="USER" name="USER" placeholder="Username" autocomplete="off" style="visibility: hidden;">
+
+    <br>
+
+    <input type="password" id="PASS" name="PASS" placeholder="Password" autocomplete="off" style="visibility: hidden;">
+
+    <br>
+
+    <button class="button" id="submitbutton" onclick="saveLoginDetails(); checkUserAndPassword()"
+      style="visibility: hidden;">Submit!</button>
+
+  </div>
+
+  <div style="text-align: center;">
+    <p class="text1">Welcome to MathSense!</p>
+
+    <p class="text2">Here we have links to multiple useful math services for your convenience.</p>
+
+    <br>
+    
+    <!--- Code For Tab Selection -->
+    <div style="text-align: center;">
+      <a href="https://www.hegartymaths.com/">
+        <button class="button">Hegarty Maths</button>
+      </a>
+      <a href="https://www.sparxmaths.uk/student">
+        <button class="button">Sparx Maths</button>
+      </a>
+      <a href="https://www.transum.org/Software">
+        <button class="button">Transum Mathematics</button>
+      </a>
+      <a href="https://www.mathsisfun.com/">
+        <button class="button">Math is Fun</button>
+      </a>
+    </div>
+
+
+
+   
+    <script src="password.js"></script>
+     <script src="script.js"></script>
+
+</body>
+
+</html>

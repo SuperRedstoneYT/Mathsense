@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: cornflowerblue
+}
+
+@font-face {
+  font-family: coolvetica;
+  src: url(Assets/Fonts/coolvetica.otf);
+}
+
+.text1 {
+  font-family: coolvetica;
+  text-align: center;
+  font-size: 55px;
+  color: #c1cffb;
+}
+
+.text2 {
+  font-family: coolvetica;
+  text-align: center;
+  font-size: 20px;
+  color: #c1cffb;
+}
+
+.button {
+  font-family: coolvetica;
+  background-color: #BEBEBE;
+  border-radius: 7px;
+}

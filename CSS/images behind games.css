@@ -1,0 +1,16 @@
+<section class="profile">
+  <div class="profile-picture"></div>
+  <h2>Example Game</h2>
+  <p>Front-end Developer</p>
+</section>
+
+.profile-picture {
+  background-image: url('image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
